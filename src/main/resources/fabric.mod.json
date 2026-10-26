@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dedsafio_eclipse",
+  "version": "${version}",
+  "name": "DEDsafio Eclipse",
+  "description": "Eclipse total, linterna y Herobrine para tu DEDsafio.",
+  "authors": ["DEDsafio"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dedsafio.eclipse.DedsafioEclipse"],
+    "client": ["com.dedsafio.eclipse.client.DedsafioEclipseClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
